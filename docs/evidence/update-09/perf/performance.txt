@@ -1,0 +1,7 @@
+Standalone 1440x900, MSAA4; uncapped manual render + frame intervals. Not a GPU profiler or release benchmark.
+View 0: median 5.49 ms, p95 6.41 ms; samples=539
+View 1: median 2.20 ms, p95 2.50 ms; samples=1410
+View 2: median 1.79 ms, p95 2.00 ms; samples=1696
+View 3: median 0.70 ms, p95 0.85 ms; samples=4157
+Allocated Unity memory: 148 MiB
+Mesh renderers in scene: 1221 (not visible draw calls).

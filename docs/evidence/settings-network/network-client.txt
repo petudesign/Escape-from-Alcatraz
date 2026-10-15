@@ -1,0 +1,6 @@
+PASS Two independent processes connected and share two poses
+PASS Remote player has a visible placeholder body
+PASS Host rejects picking up through the cell divider
+PASS Client sees authoritative tool pickup
+PASS Ownership remains stable while the host also requests the tool
+Loopback only; no second computer or human co-op test.

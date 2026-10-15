@@ -1,0 +1,1 @@
+Visual-only capture from standalone build; no gameplay checks requested.

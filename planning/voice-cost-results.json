@@ -1,0 +1,176 @@
+{
+  "checked_on": "2026-10-14",
+  "currency": "USD",
+  "note": "Illustrative API-only costs, not measured gameplay; no taxes, backend, relay or support. Prices and availability must be rechecked before integration.",
+  "assumptions": {
+    "checked_on": "2026-10-14",
+    "currency": "USD",
+    "note": "Illustrative API-only costs, not measured gameplay; no taxes, backend, relay or support. Prices and availability must be rechecked before integration.",
+    "sources": {
+      "llm": "https://ai.google.dev/gemini-api/docs/pricing",
+      "speech": "https://deepgram.com/pricing"
+    },
+    "rates": {
+      "llm_input_per_million_tokens": 0.1,
+      "llm_output_per_million_tokens": 0.4,
+      "stt_per_billed_minute": 0.0077,
+      "tts_per_thousand_characters": 0.03
+    },
+    "common": {
+      "input_tokens_per_turn": 3000,
+      "output_tokens_per_turn": 120,
+      "spoken_characters_per_turn": 240,
+      "campaign_hours": 10,
+      "players": 4,
+      "campaign_groups": 1000
+    },
+    "scenarios": [
+      {
+        "name": "light",
+        "npc_turns_per_lobby_hour": 30,
+        "billed_stt_minutes_per_lobby_hour": 10
+      },
+      {
+        "name": "baseline",
+        "npc_turns_per_lobby_hour": 120,
+        "billed_stt_minutes_per_lobby_hour": 30
+      },
+      {
+        "name": "busy",
+        "npc_turns_per_lobby_hour": 240,
+        "billed_stt_minutes_per_lobby_hour": 90
+      },
+      {
+        "name": "baseline_always_streaming_4_mics",
+        "npc_turns_per_lobby_hour": 120,
+        "billed_stt_minutes_per_lobby_hour": 240
+      }
+    ]
+  },
+  "results": [
+    {
+      "scenario": "light",
+      "components_per_lobby_hour": {
+        "llm": 0.01044,
+        "stt": 0.077,
+        "tts": 0.216
+      },
+      "variants": {
+        "local_stt_local_tts_cloud_llm": {
+          "per_lobby_hour": 0.01044,
+          "per_player_hour": 0.00261,
+          "per_campaign_group": 0.1044,
+          "per_campaign_player": 0.0261,
+          "all_campaign_groups": 104.4
+        },
+        "local_stt_cloud_tts_cloud_llm": {
+          "per_lobby_hour": 0.22644,
+          "per_player_hour": 0.05661,
+          "per_campaign_group": 2.2644,
+          "per_campaign_player": 0.5661,
+          "all_campaign_groups": 2264.4
+        },
+        "cloud_stt_cloud_tts_cloud_llm": {
+          "per_lobby_hour": 0.30344,
+          "per_player_hour": 0.07586,
+          "per_campaign_group": 3.0344,
+          "per_campaign_player": 0.7586,
+          "all_campaign_groups": 3034.4
+        }
+      }
+    },
+    {
+      "scenario": "baseline",
+      "components_per_lobby_hour": {
+        "llm": 0.04176,
+        "stt": 0.231,
+        "tts": 0.864
+      },
+      "variants": {
+        "local_stt_local_tts_cloud_llm": {
+          "per_lobby_hour": 0.04176,
+          "per_player_hour": 0.01044,
+          "per_campaign_group": 0.4176,
+          "per_campaign_player": 0.1044,
+          "all_campaign_groups": 417.6
+        },
+        "local_stt_cloud_tts_cloud_llm": {
+          "per_lobby_hour": 0.90576,
+          "per_player_hour": 0.22644,
+          "per_campaign_group": 9.0576,
+          "per_campaign_player": 2.2644,
+          "all_campaign_groups": 9057.6
+        },
+        "cloud_stt_cloud_tts_cloud_llm": {
+          "per_lobby_hour": 1.13676,
+          "per_player_hour": 0.28419,
+          "per_campaign_group": 11.3676,
+          "per_campaign_player": 2.8419,
+          "all_campaign_groups": 11367.6
+        }
+      }
+    },
+    {
+      "scenario": "busy",
+      "components_per_lobby_hour": {
+        "llm": 0.08352,
+        "stt": 0.693,
+        "tts": 1.728
+      },
+      "variants": {
+        "local_stt_local_tts_cloud_llm": {
+          "per_lobby_hour": 0.08352,
+          "per_player_hour": 0.02088,
+          "per_campaign_group": 0.8352,
+          "per_campaign_player": 0.2088,
+          "all_campaign_groups": 835.2
+        },
+        "local_stt_cloud_tts_cloud_llm": {
+          "per_lobby_hour": 1.81152,
+          "per_player_hour": 0.45288,
+          "per_campaign_group": 18.1152,
+          "per_campaign_player": 4.5288,
+          "all_campaign_groups": 18115.2
+        },
+        "cloud_stt_cloud_tts_cloud_llm": {
+          "per_lobby_hour": 2.50452,
+          "per_player_hour": 0.62613,
+          "per_campaign_group": 25.0452,
+          "per_campaign_player": 6.2613,
+          "all_campaign_groups": 25045.2
+        }
+      }
+    },
+    {
+      "scenario": "baseline_always_streaming_4_mics",
+      "components_per_lobby_hour": {
+        "llm": 0.04176,
+        "stt": 1.848,
+        "tts": 0.864
+      },
+      "variants": {
+        "local_stt_local_tts_cloud_llm": {
+          "per_lobby_hour": 0.04176,
+          "per_player_hour": 0.01044,
+          "per_campaign_group": 0.4176,
+          "per_campaign_player": 0.1044,
+          "all_campaign_groups": 417.6
+        },
+        "local_stt_cloud_tts_cloud_llm": {
+          "per_lobby_hour": 0.90576,
+          "per_player_hour": 0.22644,
+          "per_campaign_group": 9.0576,
+          "per_campaign_player": 2.2644,
+          "all_campaign_groups": 9057.6
+        },
+        "cloud_stt_cloud_tts_cloud_llm": {
+          "per_lobby_hour": 2.75376,
+          "per_player_hour": 0.68844,
+          "per_campaign_group": 27.5376,
+          "per_campaign_player": 6.8844,
+          "all_campaign_groups": 27537.6
+        }
+      }
+    }
+  ]
+}

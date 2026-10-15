@@ -1,0 +1,9 @@
+Actor displacement over 3 seconds (metres):
+1: 2.319
+2: 2.144
+3: 3.115
+4: 1.818
+5: 2.717
+6: 3.115
+7: 2.319
+All actors moved: True

@@ -1,0 +1,306 @@
+1960s prison environment brief
+1. Selli ja henkilökohtainen tila
+Tavoite: karu, vähän tavaraa, mutta ei täysin tyhjä.
+Mahdollisia elementtejä:
+- metallinen sänky
+- ohut patja, peitto, tyyny
+- wc + pieni pesuallas
+- hylly tai pieni pöytätaso
+- kirjoja
+- lehtiä
+- kirjastokatalogi / tilauskortti
+- kirjeitä
+- paperia ja kynä
+- muki / metallikuppi
+- pieni määrä henkilökohtaisia tavaroita
+- mahdollinen radio tai kuulokeliitäntä
+- valokuvia tai postikortteja, jos säännöt sallivat
+- vaatteet hyvin rajatusti
+Gameplay-ajatus: selli ei ole vain spawn room. Se voi olla stash, keskustelupaikka, riskialue tarkastuksille ja paikka, jossa pelaaja valmistautuu.
+2. Virikkeet ja vapaa-aika
+Historiallisesti Alcatrazissa oli selvästi enemmän tekemistä kuin “istu sellissä”.
+Mahdollisia:
+- softball / baseball
+- handball
+- koripallo myöhempinä vuosina
+- bridge
+- korttipelit
+- shakki
+- tammi
+- domino
+- horseshoes
+- lukeminen
+- lehdet
+- correspondence courses
+- musiikki / instrumentit
+- satunnaiset elokuvat
+- uskonnolliset tilaisuudet
+- yardilla vain oleilu ja keskustelu
+Tärkeä design-ajatus: virikkeiden ei tarvitse olla erillisiä minipelejä.
+Bridge-pöytä voi esimerkiksi olla:
+- paikka löytää tietty NPC
+- rahapeli
+- tiedonvaihto
+- velkasuhteen syntypaikka
+- cover keskustelulle
+3. Radio
+Sun ehdotus sopii tähän hyvin.
+Radio voisi olla:
+- ostettava
+- ansaittava favorista
+- vaihdettava esine
+- sallittu etuoikeus
+- harvinainen contraband-versio
+Käyttötavat:
+- musiikki
+- urheilu
+- uutiset
+- tunnelman luominen
+- keskustelunaihe NPC:n kanssa
+- distraction
+- äänen peittäminen
+- jonkun houkutteleminen paikalle
+- tieto ulkomaailmasta
+Mutta pidä sääntö:
+radio ei ole automaattinen “silent mode”.
+Kova radio voi yhtä hyvin saada vartijan tulemaan paikalle.
+4. Päivärutiini
+Tämä on ehkä tärkein autenttisuuden lähde.
+Esimerkkirakenne:
+- herätys
+- count
+- aamiainen
+- työtehtävät
+- count / siirtymä
+- lounas
+- työ / yard
+- dinner
+- vapaa-aika
+- final count
+- lockdown
+Lisäksi:
+- satunnaiset cell inspections
+- shower day
+- visitor day
+- movie night
+- work rotation
+- medical appointments
+- disciplinary events
+Pelillisesti päivän ei tarvitse olla realistisen pitkä.
+Sen pitää vain tuntua siltä, että vankila määrää rytmin.
+5. Työtehtävät
+Tässä on paljon gameplay-arvoa.
+Mahdollisia:
+- kitchen
+- bakery
+- dishwashing
+- laundry
+- workshop
+- maintenance
+- cleaning
+- dock
+- warehouse
+- gardening
+- library assistant
+- barber
+- trash / deliveries
+Työ ei ole vain rahaa varten.
+Työ = access.
+Esimerkiksi:
+- keittiö → veitsiä, ruokaa, henkilökunnan puhetta
+- workshop → työkaluja
+- laundry → vaatteita ja reittejä
+- maintenance → avaimet / rakenteiden tuntemus
+- dock → tieto toimituksista
+Tämä sopii todella hyvin sun pelin rakenteeseen.
+6. Valvonta ja turvallisuus
+Tätä ei kannata jättää taustakoristeeksi.
+Maailmassa voisi olla:
+- countit
+- vartijakierrot
+- lukitut ovet
+- avainhierarkia
+- gun galleries
+- tarkastukset
+- metallintunnistimet
+- kontrolloidut siirtymät
+- visitor searches
+- spot checks
+- night patrols
+- eri vartijat eri posteilla
+Hyvä periaate:
+pelaaja ei opi vain karttaa, vaan myös valvontajärjestelmää.
+7. Vartijat
+Älä tee vartijoista yhtä NPC-tyyppiä.
+Voisi olla esimerkiksi:
+- by-the-book
+- laiska
+- kokenut
+- uusi
+- aggressiivinen
+- puhelias
+- kyllästynyt
+- korruptoitavissa
+- mahdoton lahjoa
+Mutta älä tee näistä näkyviä “traitteja”.
+Pelaajan pitäisi oppia:
+“toi kaveri käy aina kahvilla vähän ennen viittä.”
+
+eikä:
+Guard Trait: Lazy +15%.
+
+8. Vankien sosiaalinen maailma
+Tarvitaan paljon muutakin kuin “quest giver”.
+Mahdollisia suhteita:
+- kaverit
+- velat
+- kilpailijat
+- gambling debt
+- kauppakumppanit
+- tiedonvälittäjät
+- jengit / ryhmät
+- suojelusuhteet
+- ilmiantajat
+- neutraalit
+- pitkäaikaiset vangit, jotka tietävät kaiken
+Tässä historiallinen maailma voi olla myös epämiellyttävä.
+1960-luvun amerikkalaisessa vankilassa:
+- rasismi
+- segregaatio
+- homofobia
+- väkivalta
+- hierarkiat
+olivat todellisuutta.
+Mun mielestä niitä ei pidä tehdä pelin “edgy entertainmentiksi”, mutta niitä ei myöskään kannata pyyhkiä kokonaan pois, jos tavoitteena on ajallinen uskottavuus.
+9. Informaatio
+Tekisin tästä ihan oman resurssikerroksensa.
+Tietoa voi saada:
+- vartijoiden puheista
+- vangeilta
+- radiosta
+- kirjeistä
+- work detailista
+- visitor roomista
+- tarkkailemalla rutiineja
+- varastetuista papereista
+- huhuista
+Tieto voi koskea:
+- inspectionia
+- vartijan vuoroa
+- shipmentia
+- toisen vangin velkaa
+- lukituksen toimintaa
+- escape-reittiä
+- säätä
+- ulkomaailmaa
+Ja osa tiedosta voi olla väärää.
+Tuo olisi AI-NPC-maailmassa todella kiinnostavaa.
+10. Äänimaailma
+Tässä pelissä ääni on gameplayta.
+Ympäristöääniä:
+- metallisten ovien pauke
+- avaimet
+- kengät käytävällä
+- vartijan huuto
+- distant conversations
+- ruokalan kolina
+- suihku
+- putket
+- tuuli
+- meri
+- lokit
+- radiosta tuleva musiikki
+- kaiuttimet
+- yöllinen hiljaisuus
+Sitten peli voi käyttää oikeasti:
+- seinien vaimennusta
+- etäisyyttä
+- ovien vaikutusta
+- ambient noisea
+- muiden NPC:iden puhetta
+Tämä on yksi niistä alueista, joissa sun peli voisi tuntua todella fyysiseltä ilman fotorealismia.
+11. Puhetyyli
+Tässä pitäisin tärkeimmän säännön:
+älä kirjoita “1960s dialoguea”. Kirjoita ihmisiä, jotka sattuvat elämään 1960-luvulla.
+Eli ei koko ajan:
+“Say, pal, what’s the big idea?”
+
+Se alkaa nopeasti kuulostaa parodialta.
+Ennemmin:
+- lyhyet lauseet
+- suora puhe
+- alueelliset erot
+- taustasta riippuva sanasto
+- institutionaalinen jargon
+- vähän enemmän aikakauden slangia vain siellä missä se tuntuu luonnolliselta
+Vartija:
+“Keep moving.”
+
+“Back in line.”
+
+“What are you looking at?”
+
+Vanki:
+“You owe me.”
+
+“Not here.”
+
+“Come by after chow.”
+
+Tuollainen toimii paremmin kuin jatkuva gangsterielokuva.
+12. Vaatteet ja ulkonäkö
+Vangit:
+- yksinkertaiset paidat
+- housut
+- work clothes
+- boots / yksinkertaiset kengät
+- eri kuluneisuusasteet
+Vartijat:
+- uniform shirt
+- vyö
+- avaimet
+- hat / cap tilanteesta riippuen
+- radio vain jos periodiin sopii
+- taskulamppu
+- muu varustus roolista riippuen
+Ja koska sun tyyli on stylized:
+siluetti on tärkeämpi kuin pieni historiallinen nappidetalji.
+13. Paikat joita peli todennäköisesti tarvitsee
+Ei välttämättä heti, mutta maailmaa varten:
+- cell blocks
+- dining hall
+- kitchen
+- recreation yard
+- showers
+- workshop / industries
+- laundry
+- medical / hospital
+- visiting room
+- barber
+- chapel / auditorium
+- library area
+- administrative area
+- guard room
+- control center
+- storage
+- dock
+- utility / maintenance spaces
+- exterior island paths
+Sun ei tarvitse rakentaa kaikkea heti, mutta nämä muodostavat hyvän maailmankartan.
+Do / Don't aitouden kannalta
+Do
+- käytä oikeita rutiineja ja tiloja
+- tee valvonnasta näkyvä osa arkea
+- pidä henkilökohtaiset tavarat rajattuina
+- anna NPC:ille aikakauteen sopivaa tietoa
+- anna työtehtävien määrittää, mihin pääsee
+- käytä pieniä autenttisia detaljeja
+Don't
+- älä tee jokaisesta vangista 1930-luvun gangsteria
+- älä täytä sellejä modernilla tavaralla
+- älä tee maailmasta jatkuvasti kaoottista
+- älä anna kaikille rajatonta liikkumisvapautta
+- älä tee jokaisesta historiallisesta yksityiskohdasta gameplay-sääntöä
+- älä priorisoi museotarkkuutta hauskuuden edelle
+Mun mielestä kaikkein vahvin suunta olisi “historically grounded, not historically enslaved.” Eli pelaajan pitäisi katsoa maailmaa ja ajatella “joo, tämä tuntuu 1960-luvun amerikkalaiselta vankilalta”, mutta sun ei tarvitse perustella jokaisen oven paikkaa aidolla vuoden 1962 pohjapiirroksella.
+Ja radiosta tekisin kyllä ihan oikean pienen systeemin. Se on juuri sellainen esine, joka rakentaa maailmaa, toimii resurssina ja mahdollistaa gameplayta ilman että se näyttää game mechanicilta.

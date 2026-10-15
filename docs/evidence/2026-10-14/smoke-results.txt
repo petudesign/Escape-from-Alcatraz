@@ -1,0 +1,9 @@
+PASS Player and tool present in standalone build
+PASS Outer wall blocks lateral movement
+PASS Cell divider blocks direct crossing
+PASS Player passes through cell opening to corridor
+PASS Second cell reachable via corridor
+PASS Held tool attaches without blocking player
+PASS Tool returns to table with collider restored
+PASS Tool is reachable by player interaction ray from clear floor; hit=Tool: interact with E; origin=(-1.20, 1.67, 0.80); tool=(-0.45, 0.98, 1.10)
+Microphone not activated by automated test. Human co-op test pending.

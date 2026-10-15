@@ -1,0 +1,6 @@
+Visible torso: True
+Visible pelvis: True
+Knee range: 2.99991 .. 49.01908
+Captured poses: 8
+Passed: True
+Visual samples, not a foot-contact or frame-time benchmark.

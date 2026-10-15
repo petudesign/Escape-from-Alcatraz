@@ -1,0 +1,5 @@
+Connected: True
+Peers: 2
+Remote full mesh bodies: True
+Local body: True
+Loopback two-process avatar check: True

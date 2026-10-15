@@ -1,0 +1,9 @@
+Normal routes over 45 additional simulated seconds:
+Prisoner 1: waypoints=4, longest block=0
+Prisoner 2: waypoints=6, longest block=0
+Prisoner 3: waypoints=10, longest block=0
+Prisoner 4: waypoints=6, longest block=0
+Prisoner 5: waypoints=3, longest block=0
+Prisoner 6: waypoints=6, longest block=0
+Prisoner 7: waypoints=8, longest block=0
+Routes healthy: True

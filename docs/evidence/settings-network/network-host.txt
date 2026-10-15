@@ -1,0 +1,6 @@
+PASS Two independent processes connected and share two poses
+PASS Remote player has a visible placeholder body
+PASS Host sees the client's tool ownership
+PASS Second player cannot take an already owned tool
+PASS Disconnect returns held tool to the table and removes the remote player
+Loopback only; no second computer or human co-op test.

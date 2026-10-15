@@ -1,0 +1,4 @@
+Geometry sightlines to the lower and upper stair flights:
+Guard 0: True
+Guard 1: True
+Both sightlines clear: True

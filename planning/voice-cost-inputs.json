@@ -1,0 +1,29 @@
+{
+  "checked_on": "2026-10-14",
+  "currency": "USD",
+  "note": "Illustrative API-only costs, not measured gameplay; no taxes, backend, relay or support. Prices and availability must be rechecked before integration.",
+  "sources": {
+    "llm": "https://ai.google.dev/gemini-api/docs/pricing",
+    "speech": "https://deepgram.com/pricing"
+  },
+  "rates": {
+    "llm_input_per_million_tokens": 0.10,
+    "llm_output_per_million_tokens": 0.40,
+    "stt_per_billed_minute": 0.0077,
+    "tts_per_thousand_characters": 0.030
+  },
+  "common": {
+    "input_tokens_per_turn": 3000,
+    "output_tokens_per_turn": 120,
+    "spoken_characters_per_turn": 240,
+    "campaign_hours": 10,
+    "players": 4,
+    "campaign_groups": 1000
+  },
+  "scenarios": [
+    {"name": "light", "npc_turns_per_lobby_hour": 30, "billed_stt_minutes_per_lobby_hour": 10},
+    {"name": "baseline", "npc_turns_per_lobby_hour": 120, "billed_stt_minutes_per_lobby_hour": 30},
+    {"name": "busy", "npc_turns_per_lobby_hour": 240, "billed_stt_minutes_per_lobby_hour": 90},
+    {"name": "baseline_always_streaming_4_mics", "npc_turns_per_lobby_hour": 120, "billed_stt_minutes_per_lobby_hour": 240}
+  ]
+}

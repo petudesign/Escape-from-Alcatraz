@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700">
+<rect width="1000" height="700" fill="#f3f0e7"/>
+<g font-family="Arial, sans-serif" fill="#26332f">
+<text x="44" y="48" font-size="27" font-weight="bold">SELLIT → HUOLTOTILA</text>
+<text x="44" y="77" font-size="16">Pelin kokeilupohja v0.1 · ei historiallinen mittapiirros · mitat nimellisiä</text>
+<rect x="160" y="130" width="480" height="100" fill="#d1d7ce" stroke="#34453f" stroke-width="8"/>
+<text x="320" y="180" font-size="19">Huoltotila</text>
+<text x="308" y="205" font-size="14">Myöhempi pakoreitti</text>
+<rect x="160" y="230" width="240" height="360" fill="#e8e3ce" stroke="#34453f" stroke-width="8"/>
+<rect x="400" y="230" width="240" height="360" fill="#e8e3ce" stroke="#34453f" stroke-width="8"/>
+<g fill="#798376" stroke="#34453f" stroke-width="2">
+<rect x="176" y="303" width="75" height="185"/><rect x="416" y="303" width="75" height="185"/>
+<rect x="312" y="485" width="65" height="50"/><rect x="552" y="485" width="65" height="50"/>
+</g>
+<g fill="#f7f4e9" stroke="#34453f" stroke-width="2">
+<rect x="323" y="249" width="40" height="18"/><ellipse cx="345" cy="286" rx="22" ry="27"/>
+<rect x="563" y="249" width="40" height="18"/><ellipse cx="585" cy="286" rx="22" ry="27"/>
+</g>
+<g stroke="#b55e36" stroke-width="8"><path d="M320 230h50M560 230h50"/></g>
+<g stroke="#34453f" stroke-width="5"><path d="M160 590h70m100 0h140m100 0h70"/></g>
+<path d="M160 595v55h480v-55" fill="none" stroke="#34453f" stroke-width="3"/>
+<text x="330" y="634" font-size="19">Vartijan käytävä</text>
+<text x="267" y="580" font-size="13">OVI</text><text x="507" y="580" font-size="13">OVI</text>
+<text x="270" y="425" font-size="21" font-weight="bold">SELLI 1</text>
+<text x="510" y="425" font-size="21" font-weight="bold">SELLI 2</text>
+<text x="273" y="450" font-size="14">2,4 × 3,6 m</text><text x="513" y="450" font-size="14">2,4 × 3,6 m</text>
+<text x="184" y="400" font-size="14" fill="#fff">Vuode</text><text x="424" y="400" font-size="14" fill="#fff">Vuode</text>
+<text x="324" y="291" font-size="14">WC</text><text x="564" y="291" font-size="14">WC</text>
+<text x="317" y="516" font-size="13" fill="#fff">Pöytä</text><text x="557" y="516" font-size="13" fill="#fff">Pöytä</text>
+<text x="694" y="245" font-size="18" font-weight="bold">Pakokohdan varaus</text>
+<text x="694" y="273" font-size="15">WC:n takana, peitettävissä.</text>
+<text x="694" y="298" font-size="15">Tässä kokeessa suljettu kansi.</text>
+<path d="M680 238H620" fill="none" stroke="#b55e36" stroke-width="2"/>
+<text x="694" y="382" font-size="18" font-weight="bold">Käveltävä ahtaus</text>
+<text x="694" y="410" font-size="15">Vuoteen vieressä kulkutila.</text>
+<text x="694" y="435" font-size="15">Mitat varmistetaan pelissä.</text>
+<text x="694" y="460" font-size="15">Ei vielä ovia tai ryömimistä.</text>
+<path d="M160 673h100" stroke="#34453f" stroke-width="4"/>
+<text x="275" y="679" font-size="14">1 m (sellimoduulit)</text>
+</g></svg>

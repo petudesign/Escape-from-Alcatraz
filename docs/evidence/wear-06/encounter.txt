@@ -1,0 +1,3 @@
+Head-on pass: True
+Minimum separation: 0.865733
+Longest block: 0

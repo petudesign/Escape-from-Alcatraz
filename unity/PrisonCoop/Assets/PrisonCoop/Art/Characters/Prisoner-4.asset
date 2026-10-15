@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f44f17cff7a34833aa3168a3b7625d2, type: 3}
+  m_Name: Prisoner-4
+  m_EditorClassIdentifier: Assembly-CSharp::PrisonCoop.PrisonerAppearance
+  Face: 0
+  HairStyle: 4
+  Beard: 0
+  ShirtStyle: 2
+  AppearanceRevision: 3
+  IsGuard: 0
+  FaceWidth: 0.91
+  HeadHeight: 1.04
+  JawWidth: 1
+  NoseLength: 0.85
+  Posture: 2
+  Height: 1.88
+  Width: 0.98
+  Skin: {r: 0.79, g: 0.54, b: 0.36, a: 1}
+  Hair: {r: 0.13, g: 0.1, b: 0.07, a: 1}
+  Shirt: {r: 0.64, g: 0.65, b: 0.6, a: 1}
+  Trousers: {r: 0.25, g: 0.27, b: 0.23, a: 1}
+  Shoes: {r: 0.24, g: 0.17, b: 0.11, a: 1}
